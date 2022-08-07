@@ -128,5 +128,18 @@ public class UserServiceImpl implements UserService {
     }
 
 
+    public List<User> getUsers(){
 
+        return null;
+    }
+
+    public List<User> getUsersByNames(List<String> names){
+
+        return null;
+    }
+
+    public List<User> getUsersByEmail(String email){
+
+        return null;
+    }
 }

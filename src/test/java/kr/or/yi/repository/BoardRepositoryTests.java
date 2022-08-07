@@ -13,15 +13,15 @@ public class BoardRepositoryTests {
     @Autowired
     private BoardRepository boardRepository;
 
-    @Test
-    public void insertDummies(){
-        IntStream.rangeClosed(1,300).forEach( i -> {
-            Board board = Board.builder()
-                    .id(Integer.valueOf("500"))
-                    .address("contest .." + i)
-                    .build();
-
-                    System.out.println(boardRepository.save(board));
-        });
-    }
+//    @Test
+//    public void insertDummies(){
+//        IntStream.rangeClosed(1,300).forEach( i -> {
+//            Board board = Board.builder()
+//                    .id(Integer.valueOf("500"))
+//                    .address("contest .." + i)
+//                    .build();
+//
+//                    System.out.println(boardRepository.save(board));
+//        });
+//    }
 }

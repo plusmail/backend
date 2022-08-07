@@ -75,5 +75,10 @@ public interface UserService {
         return dto;
     }
 
+    List<User> getUsers();
+
+    List<User> getUsersByNames(List<String> names);
+
+    List<User> getUsersByEmail(String email);
 }
 
